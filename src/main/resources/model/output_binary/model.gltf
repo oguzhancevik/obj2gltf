@@ -1,0 +1,81 @@
+{
+  "accessors" : [ {
+    "bufferView" : 0,
+    "byteOffset" : 0,
+    "componentType" : 5123,
+    "count" : 161187,
+    "type" : "SCALAR",
+    "max" : [ 28608 ],
+    "min" : [ 0 ]
+  }, {
+    "bufferView" : 1,
+    "byteOffset" : 0,
+    "componentType" : 5126,
+    "count" : 28609,
+    "type" : "VEC3",
+    "max" : [ 0.2416941, 0.2547293, 0.1519847 ],
+    "min" : [ -0.239441, -0.132325, -0.1367166 ]
+  }, {
+    "bufferView" : 1,
+    "byteOffset" : 343308,
+    "componentType" : 5126,
+    "count" : 28609,
+    "type" : "VEC2",
+    "max" : [ 0.6508789, 0.57200694 ],
+    "min" : [ 0.135333, 0.00819701 ]
+  } ],
+  "asset" : {
+    "generator" : "obj2gltf from https://github.com/oguzhancevik/obj2gltf",
+    "version" : "2.0"
+  },
+  "buffers" : [ {
+    "uri" : "buffer0.bin",
+    "byteLength" : 1008992
+  } ],
+  "bufferViews" : [ {
+    "buffer" : 0,
+    "byteOffset" : 0,
+    "byteLength" : 322374,
+    "target" : 34963
+  }, {
+    "buffer" : 0,
+    "byteOffset" : 322376,
+    "byteLength" : 686616,
+    "byteStride" : 12,
+    "target" : 34962
+  } ],
+  "images" : [ {
+    "uri" : "model.png"
+  } ],
+  "materials" : [ {
+    "pbrMetallicRoughness" : {
+      "baseColorTexture" : {
+        "index" : 0
+      },
+      "metallicFactor" : 0.0
+    }
+  } ],
+  "meshes" : [ {
+    "primitives" : [ {
+      "attributes" : {
+        "POSITION" : 1,
+        "TEXCOORD_0" : 2
+      },
+      "indices" : 0,
+      "material" : 0,
+      "mode" : 4
+    } ]
+  } ],
+  "nodes" : [ {
+    "mesh" : 0
+  } ],
+  "samplers" : [ { } ],
+  "scene" : 0,
+  "scenes" : [ {
+    "nodes" : [ 0 ]
+  } ],
+  "textures" : [ {
+    "sampler" : 0,
+    "source" : 0
+  } ]
+}
